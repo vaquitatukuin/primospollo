@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+
+
+body {
+    background: url(../img/fondo\ 2.jpg);
+   
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    text-transform: capitalize;
+
+}
+
+
+h1{
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.btn-primary {
+
+    background-color: rgb(196, 124, 31);
+
+    border-color: rgb(196, 124, 31);
+}
+
+.btn-primary:hover {
+
+    background-color: rgb(197, 148, 84);
+
+    border-color: rgb(197, 148, 84);
+}
+
+.btn-primary:active {
+
+    background-color: rgb(197, 148, 84) !important;
+
+    border-color: rgb(197, 148, 84) !important;
+}
+
+
+.card {
+    background-color: #3a1104;
+}
+
+
+/* footer */
+
+.footer-style {
+    padding-top: 50px;
+    background-color: #3a1104;
+}
+footer {
+  color: rgb(226, 226, 226);
+}
+footer h3 {
+  margin-bottom: 30px;
+    font-weight: 800;
+    color: #fff;
+}
+footer .footer-above {
+  padding-top: 50px;
+  background-color: #3a1104;
+}
+footer .footer-col {
+  margin-bottom: 50px;
+}
+footer .footer-below {
+  padding: 25px 0;
+  background-color: #3a1104;
+}
+
+
+.btn-social{
+color: rgb(255, 255, 255);
+
+
+}
+
+
+
+.card{
+  margin-bottom: 70px;
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: antiquewhite;
+}
+
+.swipet {
+  width: 100%;
+  padding: 150px 0 50px 0;
+}
+
+.swiper-slide {
+  width: 300px;
+  height: 500px;
+  background-color: #472116;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  padding: 40px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.icons i {
+  font-size: 20px;
+  color: #FF8900;
+}
+
+.icons img {
+  width: 120px;
+}
+
+.product-content {
+  display: flex;
+  justify-self: space-between;
+}
+
+.product-txt {
+  flex-basis: 50%;
+  text-align: left;
+}
+
+.product-txt span {
+  font-size: 25px;
+  color: #FF8900;
+  font-weight: bold;
+}
+
+.product-txt h3 {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+
+}
+
+.product-txt p {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+}
+
+.product-img {
+  flex-basis: 50px;
+  text-align: right;
+}
+
+
+.product-img img {
+  width: 120px;
+}
+
+.btn-1 {
+  display: inline-flex;
+  padding: 13px 55px;
+  border: 1px solid #FF8900;
+  border-radius: 25px;
+  color: #FF8900;
+  text-decoration: none;
+  margin-top: 50px;
+}
